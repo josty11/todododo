@@ -8,5 +8,6 @@
 import Foundation
 
 struct K {
-    public let segue = "goToItems"
+    static let segue = "goToItems"
+    static let cellName = "Cell"
 }
